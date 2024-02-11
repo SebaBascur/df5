@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="https://sebabascur.github.io/img/sin-tiitulo-3_mesa-de-trabajo-1blanco-mP4Xr0XB96SGeOD8.png" alt="">
+    </div>
+    <main class="main">
+        <h1>Todo List</h1>
+        <form id="formulario-agregar-tarea" style="border-radius: 10%;">
+            <input type="text" id="entrada-nueva-tarea" placeholder="Agregar nueva tarea...">
+            <button type="submit">Agregar Tarea</button>
+        </form>
+        <div id="encabezado-tareas">
+            <div>ID</div>
+            <div>Tarea</div>
+            <div>Completada</div>
+        </div>
+        <ul id="lista-tareas"></ul>
+        <div id="conteo-tareas">
+            <p>Total: <span id="total-tareas">0</span></p>
+            <p>Completadas: <span id="tareas-completadas">0</span></p>
+        </div>
+        <div id="tareas-completadas-lista" style="color: white;"></div>
+    </main> 
+    <script src="/assets/index.js"></script>
+</body>
+</html>

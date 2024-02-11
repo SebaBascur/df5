@@ -1,0 +1,76 @@
+.logo img {
+    width: 300px;
+    margin-left: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url('/assets/fondo-abstracto-puntos-colores-rojo-naranja-negro.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#formulario-agregar-tarea {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#entrada-nueva-tarea {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#lista-tareas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#encabezado-tareas {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#encabezado-tareas > div {
+    flex-basis: 48%;
+    text-align: center;
+    color: white;
+}
+
+#lista-tareas > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    color: white;
+}
+
+.checkbox-tarea {
+    margin-right: 10px;
+}
+
+#conteo-tareas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: white;
+}
