@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     background: url('/assets/fondo-abstracto-puntos-colores-rojo-naranja-negro.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-size: cover;    
 }
 
 h1 {
